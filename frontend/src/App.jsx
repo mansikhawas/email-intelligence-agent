@@ -23,7 +23,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/generate-reply",
+        "https://email-intelligence-agent.onrender.com/generate-reply",
         null,
         {
           params: {
